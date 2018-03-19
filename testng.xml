@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Zipidy" verbose="1" >    
+ <test name="Login Test" >
+ 		<parameter name="browser" value="Chrome"/>
+ 		    <classes>
+		       <class name="testcase.login_test" />
+		       </classes>
+  </test>
+  
+ 
+  
+ </suite>
